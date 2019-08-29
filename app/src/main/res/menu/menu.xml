@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main2Activity">
+
+    <item
+        android:id="@+id/vidcal"
+        android:icon="@drawable/ic_video_call_black_24dp"
+        android:title="Video Call"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cal"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Call"
+        app:showAsAction="always">
+        <!--<menu>-->
+        <!--<item android:id="@+id/doccl1"-->
+        <!--android:title="Doc1"/>-->
+
+        <!--<item android:id="@+id/doccl2"-->
+        <!--android:title="Doc2"/>-->
+        <!--</menu>-->
+    </item>
+
+    <item
+        android:id="@+id/sympt"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="Symptoms"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/camdoc"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:title="Doctor Camera"
+        app:showAsAction="always"/>
+
+
+</menu>

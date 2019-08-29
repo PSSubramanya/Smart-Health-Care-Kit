@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbga"
+    tools:context=".Main6Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#40FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/synptimg"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/ntpdb" />
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="60dp"
+            android:text="SYMPTOMS"
+            android:textSize="25dp" />
+
+        <ScrollView
+            android:layout_width="299dp"
+            android:layout_height="match_parent">
+            <!--<TextView-->
+            <!--android:layout_width="260dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="60dp"-->
+            <!--android:text="SYMPTOMS"-->
+            <!--android:textSize="25dp"-->
+            <!--android:paddingLeft="60dp"/>-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:id="@+id/sympttext" />
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="-330dp">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="5dp"
+            android:onClick="symptnextpage"
+            android:background="@drawable/send_msg_icon"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="50dp"
+        android:width="50dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid android:color="#E5F5FF"></solid>
+            <corners android:topLeftRadius="60dp"
+                android:bottomLeftRadius="60dp"/>
+
+        </shape>
+
+    </item>
+    <item android:height="32dp"
+        android:width="32dp"
+        android:gravity="center"
+        android:drawable="@drawable/ic_search_black_24dp"/>
+</layer-list>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="383dp"
+    android:layout_height="530dp"
+    android:orientation="vertical"
+    android:background="@drawable/docb"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="93dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/doca"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:id="@+id/marq1"
+            android:background="#AAFFFFFF"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="1dp"
+            android:singleLine="true"
+            android:text="Smart Health Care Kit"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:src="@drawable/stethescope"
+                android:layout_height="100dp" />
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="Check up"
+                android:id="@+id/chkp"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:src="@drawable/kit"
+                android:layout_height="100dp" />
+            <Button
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:text="Medication Info"
+                android:textSize="25dp"
+                android:id="@+id/mediinfo"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

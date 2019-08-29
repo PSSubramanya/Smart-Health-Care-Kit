@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbgc"
+    android:backgroundTint="#40FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:backgroundTint="#40FFFFFF"
+        android:backgroundTintMode="src_over"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/registration_icon"
+            android:id="@+id/signimg1"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:text="Member Registration"
+            android:textSize="18dp"
+            android:paddingLeft="20dp"
+            android:gravity="center"
+            android:textColor="#000000"/>
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="45dp"
+                android:textSize="13dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/custom_textview4"
+                android:backgroundTint="#90FFFFFF"
+                android:backgroundTintMode="src_over"
+                android:hint="Username"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="45dp"
+                android:textSize="13dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/pass2"
+                android:hint="Password"
+                android:background="@drawable/custom_textview3"
+                android:backgroundTint="#90FFFFFF"
+                android:backgroundTintMode="src_over"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="45dp"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:id="@+id/snbtn"
+                android:hint="SIGN-IN"
+                android:textColor="#FFFFFF"
+                android:background="#4FFD44"
+                android:backgroundTint="#60FFFFFF"
+                android:backgroundTintMode="src_over"
+                android:inputType="textPassword"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

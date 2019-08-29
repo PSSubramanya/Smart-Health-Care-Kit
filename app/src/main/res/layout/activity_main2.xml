@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/medibgd"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp">-->
+    <!--<TextView-->
+    <!--android:layout_width="80dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:text="Disease"-->
+    <!--android:id="@+id/tv1"-->
+    <!--android:textSize="20dp" />-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="100dp">
+        <!--<ImageView-->
+        <!--android:src="@drawable/ic_search_black_24dp"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginLeft="250dp"-->
+        <!--android:layout_marginTop="55dp"-->
+        <!--android:id="@+id/searimid"/>-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <!--<TextView-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:text="Disease"-->
+        <!--android:id="@+id/tv1"-->
+        <!--android:textSize="20dp" />-->
+
+
+        <!--<Button-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="@drawable/voice_search"-->
+        <!--android:id="@+id/dissearch"-->
+        <!--android:layout_marginLeft="10dp"/>-->
+        <AutoCompleteTextView
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:id="@+id/searchbtn"
+            android:completionThreshold="1"
+            android:hint="\tEnter disease name"
+            android:paddingLeft="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/custom_txt_view"
+            />
+        <ImageButton
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/voice_search_textview_icon"
+            android:layout_marginLeft="-64dp"
+            android:layout_marginTop="1dp"
+            android:id="@+id/dissearch"/>
+
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/search_btn"
+            android:textSize="20dp"
+            android:id="@+id/searchdisease"
+            android:layout_marginLeft="20dp"
+            android:onClick="nextpage"/>
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:layout_width="120dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:text="Search"-->
+    <!--android:textSize="20dp"-->
+    <!--android:id="@+id/searchdisease"-->
+    <!--android:layout_marginLeft="230dp"-->
+    <!--android:onClick="nextpage"/>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="383dp"-->
+    <!--android:layout_height="330dp"-->
+    <!--android:background="@drawable/medibg1"></LinearLayout>-->
+
+</LinearLayout>
